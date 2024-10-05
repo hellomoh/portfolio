@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Mohit Gupta</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Hi, I'm a Software Engineer</h1>
+      <p>
+        Passionate about building web applications and learning new
+        technologies.
+      </p>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a fresher software engineer with a background in computer science.
+        I specialize in frontend and backend development, and I'm constantly
+        learning new technologies to enhance my skills.
+      </p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skill-container">
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <span class="progress" style="width: 85%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>HTML & CSS</h3>
+          <div class="progress-bar">
+            <span class="progress" style="width: 90%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>React & Next.js</h3>
+          <div class="progress-bar">
+            <span class="progress" style="width: 80%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Node.js & Appwrite</h3>
+          <div class="progress-bar">
+            <span class="progress" style="width: 75%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Banking Web Application</h3>
+        <p>
+          Developed a full-stack banking web application using Next.js,
+          Appwrite, Dwolla, and Plaid. Integrated payment solutions and secured
+          financial data handling.
+        </p>
+      </div>
+      <div class="project">
+        <h3>SaaS Fake News Detection App</h3>
+        <p>
+          Created a SaaS application to assess the likelihood of news articles
+          being fake using web scraping and data analysis techniques.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Rock Paper Scissors & Tic Tac Toe</h3>
+        <p>
+          Built browser-based games using HTML, CSS, and JavaScript, showcasing
+          skills in interactive web applications.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+
+        <label for="message"
+          >This website does not have a backend. The message would not be
+          received. Instead recruiters please contact on this email:
+          mohitguptawork1@gmail.com</label
+        >
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
